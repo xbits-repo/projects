@@ -1,0 +1,63 @@
+/* Style for the header */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #008080;
+    margin-top: 50px;
+}
+
+/* Style for the form */
+form {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Style for the form labels */
+label {
+    display: block;
+    font-size: 20px;
+    color: #008080;
+    margin-top: 10px;
+}
+
+/* Style for the form inputs */
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style for the form button */
+button {
+    background-color: #008080;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* Style for the form button when hovered */
+button:hover {
+    background-color: #005353;
+}
+
+/* Style for error messages */
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+    border-color: #ccc;
+}
